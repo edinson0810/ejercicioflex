@@ -225,7 +225,9 @@ margin-bottom: 30px;
   .principal, .nosotros, .servicios, .cards, .galeria
     {flex-direction: column;}
   .ilustracion {order: 1;}
-  .principal {order: 2;}
+  .contenedor-texto{
+    order: 2;
+  }
   .order1 {order: 2;}
   .order2 {order: 3;}
   .order3 {order: 1;}
