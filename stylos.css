@@ -221,3 +221,28 @@ margin-bottom: 30px;
   resize: none;
 }
 
+@media(max-width:800px){
+  .principal, .nosotros, .servicios, .cards, .galeria
+    {flex-direction: column;}
+  .ilustracion {order: 1;}
+  .principal {order: 2;}
+  .order1 {order: 2;}
+  .order2 {order: 3;}
+  .order3 {order: 1;}
+  .img{text-align: center;}
+
+  }
+
+  @media(max-width:800px){
+    .vh-100{
+      flex-direction: column;
+    height: auto;
+    }
+    
+  }
+  
+  
+
+  
+
+
