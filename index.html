@@ -7,7 +7,7 @@
   <title>MENU</title>
   <meta name="description" content="se escribe maximo 150 palabras para descripcion">
   <link rel="icon" href="img/favicon-2.png" type="img/png">
-  <link rel="stylesheet" href="stylos.css">
+  <link rel="stylesheet" href="CSS/stylos.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
   </style>
@@ -16,19 +16,45 @@
 <body>
   <header>
     <div class="contenedor">
-      <a href="#">
-        <img src="img/logo.png" alt="">
-      </a>
-      <nav class="nav-container">
-        <a href="#inicio" class="enlace">Inicio</a>
-        <a href="#nosotros" class="enlace">Nosotros</a>
-        <a href="#servicios" class="enlace">Servicios</a>
-        <a href="#galeria" class="enlace">Galeria</a>
-        <a href="#contacto" class="enlace">Contacto</a>
-      </nav>
+      <nav class="nav">
+        <div class="nav__contenedor">
+        <!-- logo -->
+    <figure class="nav__figure">
+         <img src="assets/img/logo.png" alt="logo" class="nav__logo">
+      </figure>
+      <!-- boton -->
+       <label class="nave__toggle">
+        <input type="checkbox" class="nav__input">
+       </label>
+       <!-- navegacion -->
+        <ul class="nav__list">
+
+          <li class="nav__item">
+            <a href="#inicio" class="nav__link">Inicio</a>
+          </li>
+              
+          <li class="nav__item">
+            <a href="#nosotros" class="nav__link">Nosotros</a>
+          </li>
+               
+          <li class="nav__item">
+            <a href="#servicios" class="nav__link">Servicios</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#galeria" class="nav__link">Galeria</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contacto" class="nav__link">Contacto</a>
+          </li>
+        </ul>
+        </div>
+         </nav>
     </div>
   </header>
-  <main>
+  
+<!--    
     <section id="inicio">
       <div class="principal vh-100">
         <div class="contenedor-texto">
@@ -39,9 +65,9 @@
         <img src="img/nerd.png" alt="nerd" class="ilustracion">
 
       </div>
-    </section>
-
-    <section id="nosotros">
+    </section> -->
+<!-- nosotros -->
+    <!-- <section id="nosotros">
       <div class="contenedor nosotros vh-100">
         <img src="img/about.png" alt="" >
         <div class="contenedor-texto">
@@ -49,9 +75,9 @@
           <p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, perspiciatis!</p>
         </div>
       </div>
-    </section>
-
-    <section id="servicios">
+    </section> -->
+<!-- servicios -->
+    <!-- <section id="servicios">
       <div class="contenedor servicios vh-100">
         <div class="text-center">
           <h2 class="titulo"> servicos</h2>
@@ -95,10 +121,10 @@
         </div>
         </div>
 
-    </section>
+    </section> -->
 
-
-    <section id="galeria">
+<!-- galeria -->
+    <!-- <section id="galeria">
       <div class="contenedor vh-100">
         <div class="text-center">
           <h2 class="titulo"> Galeria</h2>
@@ -116,10 +142,10 @@
       <img src="img/seis.jpg" alt=""class="img">
     </div>
   </div>
-    </section>
+    </section> -->
 
-
-    <section id="contacto">
+<!-- contacto -->
+    <!-- <section id="contacto">
       <div class="contenedor  vh-100" >
         <div class="text-center">
           <h2 class="titulo"> Contactenos</h2>
@@ -159,7 +185,7 @@
    
     </form>
   </div>
-    </section>
+    </section> -->
 
   </main>
 
