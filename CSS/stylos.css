@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url(config.css);
+@import url(variable.css);
+@import url(header.css);
+@import url(ayudas.css);
+@import url(inicio.css);
+@import url(servicios.css);
+@import url(galeria.css);
+@import url(contacto.css);
+
+
+
+
+
+/* 
+
+@media(max-width:800px){
+  .principal, .nosotros, .servicios, .cards, 
+    {flex-direction: column;}
+  .ilustracion {order: 1;}
+  .contenedor-texto{
+    order: 2;
+  }
+  .order1 {order: 2;}
+  .order2 {order: 3;}
+  .order3 {order: 1;}
+  .img{text-align: center;}
+
+  }
+
+  @media(max-width:800px){
+    .vh-100{
+      flex-direction: column;
+    height: 0 auto;
+    }
+    
+  }
+   */
+  
+
+  
+
+
