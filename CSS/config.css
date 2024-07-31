@@ -5,15 +5,7 @@
   
   }
   
-  :root {
-    --main-color: #f6e231;
-    --secod-color: #2a2929;
-    --white-color: #f2f2f2;
-    --fon-size: 18px;
-    --max-width: 1400px;
-    --nav-heigt: 70px;
-    
-  }
+  
   
   html{
     scroll-behavior: smooth;
