@@ -63,10 +63,10 @@ header div {
 
 }
 
-/* nav {
+ nav {
   height: var(--nav-heigt);
 }
-
+/*
 .nav-container {
   display: flex;
   align-items: center;
@@ -232,7 +232,7 @@ margin-bottom: 30px;
   outline: none;
   resize: none;
 } */
-
+/* 
 @media(max-width:800px){
   .principal, .nosotros, .servicios, .cards, .galeria
     {flex-direction: column;}
@@ -254,7 +254,7 @@ margin-bottom: 30px;
     }
     
   }
-  
+   */
   
 
   
