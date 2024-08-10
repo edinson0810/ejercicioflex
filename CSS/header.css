@@ -1,15 +1,17 @@
 header {
-    /* display: flex; */
+     /* display: flex;  */
     background-color: var(--main-color);
     color: var(--secod-color);
     position: sticky;
     top: 0;
+    
   }
   
  
 
   .nav{ 
     height: var(--nav-heigt);
+   
    }
 
   .nav__contenedor{
@@ -18,6 +20,7 @@ header {
     justify-content: space-between;
     --transfor-menu-show:translate(-100%);
     --icon-togle-menu:url(../assets/iconos/open.svg);
+    padding: 10px;
 
   }
 
@@ -26,7 +29,9 @@ header {
     --icon-togle-menu:url(../assets/iconos/close.svg);
   }
 
-  .nav__figure{  }
+  .nav__figure{ 
+    
+   }
 
   .nav__logo{  }
 
@@ -57,6 +62,9 @@ transition: all .5s;
     top: var(--nav-heigt);
     transform: var(--transfor-menu-show);
     list-style: none;
+    padding-right: 20px;
+    
+    
     
     }
 

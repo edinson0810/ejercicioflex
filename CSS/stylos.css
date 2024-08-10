@@ -54,7 +54,7 @@ header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-} */
+} 
 
 .contenedor {
   max-width: var(--max-width);
