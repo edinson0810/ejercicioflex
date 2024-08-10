@@ -18,6 +18,7 @@ header {
     justify-content: space-between;
     --transfor-menu-show:translate(-100%);
     --icon-togle-menu:url(../assets/iconos/open.svg);
+    padding: 10px;
 
   }
 
